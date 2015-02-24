@@ -294,6 +294,9 @@ define([
      * @function module:delite/register
      */
     function register(tag, superclasses, props) {
+
+
+
         // Create the widget class by extending specified superclasses and adding specified properties.
 
         // Make sure all the bases have their proper constructors for being composited.

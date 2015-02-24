@@ -107,7 +107,6 @@ define([
 
             //parse variables
             if (config.variables) {
-
                 commonCss = "{{themeRoot}}/{{theme}}/common.css";
                 var _delimiters = {
                     begin: '{{',
@@ -136,8 +135,6 @@ define([
             // Convert list of logical resources into list of dependencies.
             // ex: Button/css/{{theme}}/Button.css --> requirejs-dplugins/css!Button/css/ios/Button.css
             var deps = resources.map(function (path) {
-
-
                 var _path = css.id + "!" + path.replace(/{{theme}}/, load.getTheme());
                 if (config.variables) {
                     _path = utils.replace(_path, null, config.variables, {
@@ -146,7 +143,6 @@ define([
                     });
                 }
                 return _path;
-
             });
 
             // Call css! plugin to insert the stylesheets.

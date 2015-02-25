@@ -5,7 +5,7 @@
  *  baseClass : d-progress-indicator
  * -----------------------------------------------
  */
-.d-progress-indicator {
+.superhero .d-progress-indicator {
   display: inline-block;
   visibility: hidden;
   vertical-align: middle;

@@ -1,4 +1,4 @@
-.d-combobox {
+.superhero .d-combobox {
   display: inline-block;
   position: relative;
   vertical-align: middle;
@@ -12,7 +12,7 @@
   font-size: 15px;
   line-height: 1.42857143;
 }
-.d-combobox::after {
+.superhero .d-combobox::after {
   /* dropdown arrow */
   content: "\25BC";
   display: inline-block;
@@ -26,25 +26,25 @@
   height: 1em;
   margin-top: -0.6em;
 }
-.d-combobox::after[disabled] {
+.superhero .d-combobox::after[disabled] {
   cursor: auto;
 }
-.d-combobox.d-rtl::after {
+.superhero .d-combobox.d-rtl::after {
   left: 1em;
   /* restore default */
   right: auto;
 }
-.d-combobox[disabled] {
+.superhero .d-combobox[disabled] {
   cursor: auto;
   opacity: 0.5;
 }
-.d-combo-popup {
+.superhero .d-combo-popup {
   /* Needed for the correct layout of its LinearLayout child */
   display: block;
 }
 /* Applies to both the input inside the root node and the input */
 /* conditionally present inside the popup */
-.d-combobox-input {
+.superhero .d-combobox-input {
   padding: 8px 1.7em 8px 16px;
   border: 1px solid transparent;
   border-radius: 0;
@@ -53,20 +53,20 @@
   font-size: inherit;
   line-height: normal;
 }
-.d-combobox-input:focus {
+.superhero .d-combobox-input:focus {
   /* defined in delite/themes/bootstrap/mixins.less */
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-.d-combobox-input[disabled],
-fieldset[disabled] .d-combobox-input {
+.superhero .d-combobox-input[disabled],
+fieldset[disabled] .superhero .d-combobox-input {
   opacity: 0.5;
   cursor: auto;
 }
 /* Applies to the input inside the root node but does not apply */
 /* to the input conditionally present inside the popup */
-.d-combobox .d-combobox-input {
+.superhero .d-combobox .d-combobox-input {
   height: 100%;
   vertical-align: inherit;
   cursor: pointer;
@@ -74,10 +74,10 @@ fieldset[disabled] .d-combobox-input {
   /* due to the presence of the hidden input which stores the submitted value.*/
   margin: 0;
 }
-.d-combobox .d-combobox-list-hidden {
+.superhero .d-combobox .d-combobox-list-hidden {
   display: none;
 }
-.d-combobox-list .d-active-descendant {
+.superhero .d-combobox-list .d-active-descendant {
   /* defined in delite/themes/bootstrap/mixins.less */
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;

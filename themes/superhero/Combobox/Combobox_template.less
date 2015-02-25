@@ -1,4 +1,8 @@
-.d-combobox {
+@import "../variables";
+@import "./Combobox";
+
+
+.@{themeName} .d-combobox {
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
@@ -28,19 +32,19 @@
 	}
 }
 
-.d-combobox[disabled] {
+.@{themeName} .d-combobox[disabled] {
 	cursor: auto;
 	opacity: 0.5;
 }
 
-.d-combo-popup {
+.@{themeName} .d-combo-popup {
 	/* Needed for the correct layout of its LinearLayout child */
 	display: block;
 }
 
 /* Applies to both the input inside the root node and the input */
 /* conditionally present inside the popup */
-.d-combobox-input {
+.@{themeName} .d-combobox-input {
 	.d-combobox-input-styles;
 	color: inherit;
 	font-family: inherit;
@@ -56,7 +60,7 @@
 
 /* Applies to the input inside the root node but does not apply */
 /* to the input conditionally present inside the popup */
-.d-combobox .d-combobox-input {
+.@{themeName} .d-combobox .d-combobox-input {
 	height: 100%;
 	vertical-align: inherit;
 	cursor: pointer;
@@ -66,6 +70,6 @@
 	margin: 0;
 }
 
-.d-combobox .d-combobox-list-hidden {
+.@{themeName} .d-combobox .d-combobox-list-hidden {
 	display: none;
 }

@@ -1,5 +1,5 @@
 @import "../includes";
-@import "../variables.less";
+@import "../variables";
 @import "./Combobox_template";
 
 @d-combobox-border-size: 1px;
@@ -34,7 +34,7 @@
 	}
 }
 
-.d-combobox-list .d-active-descendant {
+.@{themeName} .d-combobox-list .d-active-descendant {
 	/* defined in delite/themes/bootstrap/mixins.less */
 	.tab-focus();
 }

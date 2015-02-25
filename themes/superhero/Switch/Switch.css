@@ -1,4 +1,4 @@
-.d-switch {
+.superhero .d-switch {
   display: inline-block;
   font-size: 0.9em;
   position: relative;
@@ -7,14 +7,14 @@
   white-space: nowrap;
   border: 1px solid #c5c5c5;
 }
-.d-switch.d-focused {
+.superhero .d-switch.d-focused {
   outline: 0;
   -webkit-box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
   -moz-box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
   border-color: #66afe9;
 }
-.d-switch.d-disabled {
+.superhero .d-switch.d-disabled {
   opacity: .6;
 }
 .-d-switch-block {
@@ -93,9 +93,9 @@
   -webkit-transition: margin-left 100ms ease-in, width 100ms ease-in;
   transition: margin-left 100ms ease-in, width 100ms ease-in;
 }
-.d-switch-width {
+.superhero .d-switch-width {
   width: 70px;
 }
-.d-switch-rounded {
+.superhero .d-switch-rounded {
   border-radius: 15px;
 }

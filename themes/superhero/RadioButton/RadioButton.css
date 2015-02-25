@@ -1,4 +1,4 @@
-.d-radio-button {
+.superhero .d-radio-button {
   position: relative;
   display: inline-block;
   /* #408 Enforce content-box to ensure correctly centered check mark */
@@ -16,12 +16,12 @@
   background-image: linear-gradient(to bottom, #ededed 0%, #dedede 100%);
   padding: 1px;
 }
-.d-radio-button.d-focused {
+.superhero .d-radio-button.d-focused {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-.d-radio-button::before {
+.superhero .d-radio-button::before {
   overflow: hidden;
   display: inline-block;
   position: absolute;
@@ -34,23 +34,23 @@
   border-width: 1px;
   border-radius: 0.4em;
 }
-.d-radio-button.d-checked::before {
+.superhero .d-radio-button.d-checked::before {
   background-color: #2b3e50;
 }
-.d-radio-button.d-disabled {
+.superhero .d-radio-button.d-disabled {
   background-color: #ebebeb;
 }
-.d-radio-button.d-disabled::before {
+.superhero .d-radio-button.d-disabled::before {
   background-color: #ebebeb;
 }
-.d-radio-button.d-disabled.d-checked::before {
+.superhero .d-radio-button.d-disabled.d-checked::before {
   background-color: #4e5d6c;
 }
-.d-radio-button.d-disabled,
-fieldset[disabled] .d-radio-button {
+.superhero .d-radio-button.d-disabled,
+fieldset[disabled] .superhero .d-radio-button {
   cursor: not-allowed;
 }
-.d-radio-button > input[type=radio] {
+.superhero .d-radio-button > input[type=radio] {
   width: 0.5em;
   height: 0.5em;
   margin: 1px;
@@ -63,7 +63,7 @@ fieldset[disabled] .d-radio-button {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-.d-radio-button > input[type=radio][disabled],
-fieldset[disabled] .d-radio-button > input[type=radio] {
+.superhero .d-radio-button > input[type=radio][disabled],
+fieldset[disabled] .superhero .d-radio-button > input[type=radio] {
   cursor: not-allowed;
 }

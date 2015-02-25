@@ -1,0 +1,391 @@
+.d-buttonMake {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  white-space: nowrap;
+  padding: 8px 16px;
+  border-radius: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  color: #ffffff;
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.d-buttonMake:focus,
+.d-buttonMake:active:focus,
+.d-buttonMake.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.d-buttonMake:hover,
+.d-buttonMake:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.d-buttonMake:active,
+.d-buttonMake.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.d-buttonMake.disabled,
+.d-buttonMake[disabled],
+fieldset[disabled] .d-buttonMake {
+  cursor: not-allowed;
+  opacity: .65;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  pointer-events: none;
+}
+.d-buttonMake:hover,
+.d-buttonMake:focus,
+.d-buttonMake:active,
+.d-buttonMake.active {
+  color: #ffffff;
+  background-color: #3d4954;
+  border-color: rgba(0, 0, 0, 0);
+}
+.d-buttonMake:active,
+.d-buttonMake.active {
+  background-image: none;
+}
+.d-buttonMake.disabled,
+.d-buttonMake[disabled],
+.d-buttonMake.disabled:hover,
+.d-buttonMake[disabled]:hover,
+.d-buttonMake.disabled:focus,
+.d-buttonMake[disabled]:focus,
+.d-buttonMake.disabled:active,
+.d-buttonMake[disabled]:active,
+.d-buttonMake.disabled.active,
+.d-buttonMake[disabled].active {
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.superhero .d-button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  white-space: nowrap;
+  padding: 8px 16px;
+  border-radius: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  color: #ffffff;
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.superhero .d-button:focus,
+.superhero .d-button:active:focus,
+.superhero .d-button.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.superhero .d-button:hover,
+.superhero .d-button:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.superhero .d-button:active,
+.superhero .d-button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.superhero .d-button.disabled,
+.superhero .d-button[disabled],
+fieldset[disabled] .superhero .d-button {
+  cursor: not-allowed;
+  opacity: .65;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  pointer-events: none;
+}
+.superhero .d-button:hover,
+.superhero .d-button:focus,
+.superhero .d-button:active,
+.superhero .d-button.active {
+  color: #ffffff;
+  background-color: #3d4954;
+  border-color: rgba(0, 0, 0, 0);
+}
+.superhero .d-button:active,
+.superhero .d-button.active {
+  background-image: none;
+}
+.superhero .d-button.disabled,
+.superhero .d-button[disabled],
+.superhero .d-button.disabled:hover,
+.superhero .d-button[disabled]:hover,
+.superhero .d-button.disabled:focus,
+.superhero .d-button[disabled]:focus,
+.superhero .d-button.disabled:active,
+.superhero .d-button[disabled]:active,
+.superhero .d-button.disabled.active,
+.superhero .d-button[disabled].active {
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.superhero .d-button-primary {
+  color: #ffffff;
+  background-color: #df691a;
+  border-color: transparent;
+}
+.superhero .d-button-primary:hover,
+.superhero .d-button-primary:focus,
+.superhero .d-button-primary:active,
+.superhero .d-button-primary.active {
+  color: #ffffff;
+  background-color: #ba5816;
+  border-color: rgba(0, 0, 0, 0);
+}
+.superhero .d-button-primary:active,
+.superhero .d-button-primary.active {
+  background-image: none;
+}
+.superhero .d-button-primary.disabled,
+.superhero .d-button-primary[disabled],
+.superhero .d-button-primary.disabled:hover,
+.superhero .d-button-primary[disabled]:hover,
+.superhero .d-button-primary.disabled:focus,
+.superhero .d-button-primary[disabled]:focus,
+.superhero .d-button-primary.disabled:active,
+.superhero .d-button-primary[disabled]:active,
+.superhero .d-button-primary.disabled.active,
+.superhero .d-button-primary[disabled].active {
+  background-color: #df691a;
+  border-color: transparent;
+}
+.superhero .d-button-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: transparent;
+}
+.superhero .d-button-success:hover,
+.superhero .d-button-success:focus,
+.superhero .d-button-success:active,
+.superhero .d-button-success.active {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: rgba(0, 0, 0, 0);
+}
+.superhero .d-button-success:active,
+.superhero .d-button-success.active {
+  background-image: none;
+}
+.superhero .d-button-success.disabled,
+.superhero .d-button-success[disabled],
+.superhero .d-button-success.disabled:hover,
+.superhero .d-button-success[disabled]:hover,
+.superhero .d-button-success.disabled:focus,
+.superhero .d-button-success[disabled]:focus,
+.superhero .d-button-success.disabled:active,
+.superhero .d-button-success[disabled]:active,
+.superhero .d-button-success.disabled.active,
+.superhero .d-button-success[disabled].active {
+  background-color: #5cb85c;
+  border-color: transparent;
+}
+.superhero .d-button-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: transparent;
+}
+.superhero .d-button-info:hover,
+.superhero .d-button-info:focus,
+.superhero .d-button-info:active,
+.superhero .d-button-info.active {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: rgba(0, 0, 0, 0);
+}
+.superhero .d-button-info:active,
+.superhero .d-button-info.active {
+  background-image: none;
+}
+.superhero .d-button-info.disabled,
+.superhero .d-button-info[disabled],
+.superhero .d-button-info.disabled:hover,
+.superhero .d-button-info[disabled]:hover,
+.superhero .d-button-info.disabled:focus,
+.superhero .d-button-info[disabled]:focus,
+.superhero .d-button-info.disabled:active,
+.superhero .d-button-info[disabled]:active,
+.superhero .d-button-info.disabled.active,
+.superhero .d-button-info[disabled].active {
+  background-color: #5bc0de;
+  border-color: transparent;
+}
+.superhero .d-button-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: transparent;
+}
+.superhero .d-button-warning:hover,
+.superhero .d-button-warning:focus,
+.superhero .d-button-warning:active,
+.superhero .d-button-warning.active {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: rgba(0, 0, 0, 0);
+}
+.superhero .d-button-warning:active,
+.superhero .d-button-warning.active {
+  background-image: none;
+}
+.superhero .d-button-warning.disabled,
+.superhero .d-button-warning[disabled],
+.superhero .d-button-warning.disabled:hover,
+.superhero .d-button-warning[disabled]:hover,
+.superhero .d-button-warning.disabled:focus,
+.superhero .d-button-warning[disabled]:focus,
+.superhero .d-button-warning.disabled:active,
+.superhero .d-button-warning[disabled]:active,
+.superhero .d-button-warning.disabled.active,
+.superhero .d-button-warning[disabled].active {
+  background-color: #f0ad4e;
+  border-color: transparent;
+}
+.superhero .d-button-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: transparent;
+}
+.superhero .d-button-danger:hover,
+.superhero .d-button-danger:focus,
+.superhero .d-button-danger:active,
+.superhero .d-button-danger.active {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: rgba(0, 0, 0, 0);
+}
+.superhero .d-button-danger:active,
+.superhero .d-button-danger.active {
+  background-image: none;
+}
+.superhero .d-button-danger.disabled,
+.superhero .d-button-danger[disabled],
+.superhero .d-button-danger.disabled:hover,
+.superhero .d-button-danger[disabled]:hover,
+.superhero .d-button-danger.disabled:focus,
+.superhero .d-button-danger[disabled]:focus,
+.superhero .d-button-danger.disabled:active,
+.superhero .d-button-danger[disabled]:active,
+.superhero .d-button-danger.disabled.active,
+.superhero .d-button-danger[disabled].active {
+  background-color: #d9534f;
+  border-color: transparent;
+}
+.superhero .d-toggle-button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  white-space: nowrap;
+  padding: 8px 16px;
+  border-radius: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  color: #ffffff;
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.superhero .d-toggle-button:focus,
+.superhero .d-toggle-button:active:focus,
+.superhero .d-toggle-button.active:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.superhero .d-toggle-button:hover,
+.superhero .d-toggle-button:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+.superhero .d-toggle-button:active,
+.superhero .d-toggle-button.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.superhero .d-toggle-button.disabled,
+.superhero .d-toggle-button[disabled],
+fieldset[disabled] .superhero .d-toggle-button {
+  cursor: not-allowed;
+  opacity: .65;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  pointer-events: none;
+}
+.superhero .d-toggle-button:hover,
+.superhero .d-toggle-button:focus,
+.superhero .d-toggle-button:active,
+.superhero .d-toggle-button.active {
+  color: #ffffff;
+  background-color: #3d4954;
+  border-color: rgba(0, 0, 0, 0);
+}
+.superhero .d-toggle-button:active,
+.superhero .d-toggle-button.active {
+  background-image: none;
+}
+.superhero .d-toggle-button.disabled,
+.superhero .d-toggle-button[disabled],
+.superhero .d-toggle-button.disabled:hover,
+.superhero .d-toggle-button[disabled]:hover,
+.superhero .d-toggle-button.disabled:focus,
+.superhero .d-toggle-button[disabled]:focus,
+.superhero .d-toggle-button.disabled:active,
+.superhero .d-toggle-button[disabled]:active,
+.superhero .d-toggle-button.disabled.active,
+.superhero .d-toggle-button[disabled].active {
+  background-color: #4e5d6c;
+  border-color: transparent;
+}
+.superhero .d-toggle-button span {
+  border: dotted 2px transparent;
+}
+.superhero .d-toggle-button.d-checked {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  background-color: #ebebeb;
+  color: #191919;
+}
+.superhero .d-toggle-button.d-checked span {
+  border-style: solid;
+}

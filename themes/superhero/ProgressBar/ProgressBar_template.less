@@ -1,0 +1,69 @@
+@import "../variables";
+@import "./ProgressBar";
+
+.@{themeName} .d-progress-bar {
+  display: inline-block;
+  position: relative; // Needed for absolutely positioned children
+  padding: 0;
+  width: 100%;
+  .d-progress-bar-styles;
+}
+
+.@{themeName} .d-progress-bar-background {
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .d-progress-bar-background-styles;
+}
+
+.@{themeName} .d-progress-bar-indicator {
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  .d-progress-bar-indicator-styles;
+}
+
+.@{themeName} .d-progress-bar-msg {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; // Needed for the alignment of the two parts of the text
+  .d-progress-bar-msg-styles;
+}
+
+.@{themeName} .d-progress-bar-msg-invert {
+  .d-progress-bar-msg-invert-styles;
+}
+
+.@{themeName} .d-progress-bar-a11y {
+  .d-progress-bar-a11y-styles;
+}
+
+.@{themeName} .d-progress-bar-msg-ext {
+  .d-progress-bar-msg-ext-styles;
+  overflow: hidden; // Needed for the alignment of the two parts of the text
+}
+
+.@{themeName} .d-progress-bar-indeterminate .d-progress-bar-background {
+  margin: 0;
+  padding: 0;
+  .d-progress-bar-indeterminate-background-styles;
+}
+
+.@{themeName} .d-progress-bar-indeterminate .d-progress-bar-indicator {
+  margin: 0;
+  padding: 0;
+  .d-progress-bar-indeterminate-indicator-styles;
+}
+
+@keyframes d-progress-bar-indeterminate-animation {
+  .keyframes-d-progress-bar-indeterminate-animation;
+}
+
+@-webkit-keyframes d-progress-bar-indeterminate-animation {
+  .keyframes-d-progress-bar-indeterminate-animation;
+}

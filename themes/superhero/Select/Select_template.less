@@ -1,6 +1,9 @@
+@import "../variables";
+@import "./Select";
+
 /* Wrapping the select in a span avoids rounding the select element itself,
   thus avoids a different rendering on FF and IE than in Chrome on desktop. */
-.d-select {
+.@{themeName} .d-select {
 	/* Do not hardcode a height because this would misbehave multi-select */
 	display: inline-block;
 	vertical-align: middle;
@@ -10,7 +13,7 @@
 	.d-select-styles;
 }
 
-.d-select-inner {
+.@{themeName} .d-select-inner {
 	height: inherit;
 	width: inherit;
 	color: inherit;

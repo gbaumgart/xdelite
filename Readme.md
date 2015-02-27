@@ -6,7 +6,7 @@
 
 ### Handlebar templates
 
- 1. Same as CSS/Themes: will resolved by solved by a requirejs.load hook and a variable mixin
+ 1. Same as CSS/Themes: resolved by a requirejs.load hook and a variable mixin
 
 ### Widgets
 
@@ -16,4 +16,3 @@
  
  2. Widget base class is still too simple, missing support for suspend/resume in regard of widget caching, and event
  subscriptions go through addListener for native events, and uses Widget#on for non-HTML events.  
-  

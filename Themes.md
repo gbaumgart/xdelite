@@ -26,10 +26,7 @@ xdelite/themes/superhero
 
 Todo's:
 
-1. Auto add the theme (require-config) 'superhero' css class to all sample files by converting theme to handlebar 
-templates and process the 'theme' variable accordingly.
-
-2. as the theme path pattern is now always the same, it makes sense to change it from: 
+1. as the theme path pattern is now always the same, it makes sense to change it from: 
     
         "delite/theme!{{themeRoot}}/{{theme}}/Button/Button.css"
 to
@@ -37,7 +34,8 @@ to
         "delite/theme!{{themeRoot}}/{{theme}}/{{Widget}}/{{Widget}}.css"
 
 I have currently no solution to remove this require since delite/register isn't not working async. Because this 
-string belongs into the widget's properties and also to support other build tasks than delite/delitful. 
+string belongs into the widget's properties and also to support other build tasks than delite/delitful's build-system.
+
 
 3. Port the original bootstrap theme the same way, just as reference. 
  

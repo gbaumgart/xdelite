@@ -1,0 +1,13 @@
+.superhero .d-scrollable {
+  display: block;
+  /* enable momentum: */
+  -webkit-overflow-scrolling: touch;
+}
+.superhero .d-scrollable-h {
+  /* enable horizontal scrolling: */
+  overflow-x: auto;
+}
+.superhero .d-scrollable-v {
+  /* enable vertical scrolling: */
+  overflow-y: auto;
+}

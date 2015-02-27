@@ -1,0 +1,42 @@
+.superhero .d-star-rating {
+  /* Do not modify the display style */
+  display: inline-block;
+  font-size: 2.85em;
+  line-height: 1em;
+  vertical-align: middle;
+}
+.superhero .d-star-rating.d-star-rating-hovered {
+  opacity: 0.5;
+}
+.superhero .d-star-rating-zero {
+  /* Do not modify the display style */
+  display: inline-block;
+  height: 1px;
+  width: 0.5em;
+}
+.superhero .d-star-rating-star-icon {
+  /* Do not modify the display style */
+  display: inline-block;
+  overflow: hidden;
+  width: 0.5em;
+}
+.superhero .d-star-rating-star-icon::before {
+  width: 1em;
+  display: inline-block;
+  text-align: center;
+  line-height: 1em;
+}
+.superhero .d-star-rating-empty::before {
+  content: "\2606";
+  color: #df691a;
+}
+.superhero .d-star-rating-full::before {
+  content: "\2605";
+  color: #df691a;
+}
+.superhero .d-star-rating-disabled .d-star-rating-full::before {
+  color: #4e5d6c;
+}
+.superhero .d-star-rating-end.d-star-rating-star-icon::before {
+  margin-left: -0.5em;
+}

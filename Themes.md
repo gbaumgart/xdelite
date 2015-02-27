@@ -52,6 +52,6 @@ Remarks:
 
 As described in the issue, you have to patch delite/register for changing baseClass:'d-button' to 'btn' to get other
 stock-themes working without bigger efforts. But as all sample files have to remain intact, another solution is required
-for d-button-warning. See below.
+for d-button-warning. See below and ticket.
 
 ## Boostrap specifics

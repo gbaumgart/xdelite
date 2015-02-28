@@ -34,11 +34,22 @@
 <style>
 </style>
 <body style="display: none" class="superhero">
-	<label>
-		<d-checkbox name="options" checked="true"></d-checkbox>
-		Option 1
-	</label>
-	<d-checkbox name="options" id="option2"></d-checkbox>
-	<label for="option2"> Option 2 </label>
+
+		<d-checkbox is="d-checkbox" class="checkbox checkbox-danger" checked="false" id="option1">
+            <label>
+                Check me out
+            </label>
+		</d-checkbox>
+
+        <!--d-checkbox class="checkbox checkbox-danger" name="options" checked="true"></d-checkbox-->
+
+
+
+    <div class="checkbox checkbox-danger" is="d-checkbox">
+        <input type="checkbox" checked="" id="checkbox6">
+        <label for="checkbox6">
+            Check me out
+        </label>
+    </div>
 </body>
 </html>

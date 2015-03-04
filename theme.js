@@ -27,10 +27,27 @@ define([
     "requirejs-dplugins/has",
     "module",
     "requirejs-dplugins/css",
-    "xide/utils/StringUtils"
+    "./StringUtils"
 ], function (req, has, module, css, utils) {
 
     "use strict";
+
+    require.config({
+        config: {
+            has: {
+                "use-dcl": true,
+                "delite-theme":false
+            },
+            'xdelite/theme':{
+                external:true,
+                theme:'superhero',
+                variables:{
+                    theme:'superhero',
+                    themeRoot:'xdelite/themes/'
+                }
+            }
+        }
+    });
 
     var config = module.config() || {};
 

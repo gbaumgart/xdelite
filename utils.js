@@ -1,6 +1,6 @@
 define([
-    'dojo/_base/declare'
-], function (declare) {
+
+], function () {
     // module:
     //		xide/utils
 
@@ -10,5 +10,5 @@ define([
      //		This module is a stub for the core xutils utils API.
      };
      =====*/
-    return declare("xdelite/utils", null, {});
+    return {};
 });

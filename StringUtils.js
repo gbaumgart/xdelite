@@ -1,7 +1,17 @@
 define([
-    './utils',
-    'dojo/_base/lang'
-], function (utils,lang) {
+    './utils'
+], function (utils) {
+
+    function isObject(a){
+        return typeof a === 'object';
+    }
+
+    function isArray(a){
+        if (Array.isArray){
+            return Array.isArray(a);
+        }
+        return false;
+    }
 
     /**
      * String Replace which works with multiple found items. Native aborts on the first needle.
@@ -11,10 +21,6 @@ define([
      * @returns {string}
      */
     utils.replaceAll = function (find, replace, str) {
-        //return str.replace(new RegExp(find, 'g'), replace);\
-        if (!str) {
-            //debugger;
-        }
         return str ? str.split(find).join(replace) : '';//faster!
     };
     /**
@@ -137,7 +143,7 @@ define([
         if (!str) {
             return '';
         }
-        if (what && lang.isObject(what) || lang.isArray(what)) {
+        if (what && isObject(what) || isArray(what)) {
 
             if (delimiters) {
 

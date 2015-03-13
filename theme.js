@@ -39,7 +39,7 @@ define([
                 "delite-theme":false
             },
             'xdelite/theme':{
-                external:true,
+                /*external:true,*/
                 theme:'superhero',
                 variables:{
                     theme:'superhero',
